@@ -47,10 +47,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/870-536x354-blur_2-grayscale.jpg");
+    /* background-image: url("\images\placeimg_640_480_grayscale_tech (2).jpg"); */
     background-size: cover;
     background-position: center;
 }
