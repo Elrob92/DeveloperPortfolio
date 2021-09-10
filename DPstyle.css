@@ -72,6 +72,10 @@ p {
 }
 
 .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #9e5006;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -124,10 +128,23 @@ p {
     max-width: 150px;
 }
 
-.project-three img {
+.project-three img   {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.project-one img:hover, .project-two img:hover, .project-three img:hover {
+    box-shadow: inset 0px 0px 8px #9e5006, 0 0 15px #9e5006;
+    position:relative;
+    top:15px;
+    left:15px;
+    bottom:15px;
+    right:15px;
+    width:300px;
+    height:auto;
+    display:flex;
+    z-index:999;
 }
 
 .contact-me {
